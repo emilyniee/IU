@@ -1,20 +1,28 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
   height: 100vh; 
   background-color: rgb(253, 240, 188);
   color:rgb(255, 153, 0);
   transition: all 200ms;
+  margin: 20vh
 }
 
-div{
+.playlist{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.song{
   text-align: center;
   border: 2px solid rgb(255, 145, 0);
   padding: 16px;
   box-shadow: 8px 8px  rgb(255, 145, 0);
   border-radius: 16px;
+  margin: 10px;
 }
 
 img{
@@ -29,6 +37,8 @@ a{
 
 }
 
+
 .pink{
-  background-color: rgb(255, 215, 222);
+  background-color: rgb(247, 226, 229);
 }
+

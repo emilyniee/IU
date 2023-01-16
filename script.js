@@ -1,5 +1,3 @@
-document.body.onkeyup = function(e){
-  if(e.code == "Space"){
-    document.body.classList.toggle ("pink");
-  }
-}
+addEventListener('click', (event) => {});
+
+onclick = (event) => { document.body.classList.toggle ("pink");};
